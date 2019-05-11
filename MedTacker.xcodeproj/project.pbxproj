@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6184EC7B2285F3D900A57F82 /* NewMedicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184EC7A2285F3D900A57F82 /* NewMedicationVC.swift */; };
+		6184EC7D2285F49A00A57F82 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184EC7C2285F49A00A57F82 /* Medication.swift */; };
+		6184EC832285FBE500A57F82 /* NewMedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184EC822285FBE500A57F82 /* NewMedViews.swift */; };
 		61C1E485228539D9007CDE49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1E484228539D9007CDE49 /* AppDelegate.swift */; };
-		61C1E487228539D9007CDE49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1E486228539D9007CDE49 /* ViewController.swift */; };
+		61C1E487228539D9007CDE49 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C1E486228539D9007CDE49 /* HomeVC.swift */; };
 		61C1E48A228539D9007CDE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C1E488228539D9007CDE49 /* Main.storyboard */; };
 		61C1E48C228539DA007CDE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C1E48B228539DA007CDE49 /* Assets.xcassets */; };
 		61C1E48F228539DA007CDE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C1E48D228539DA007CDE49 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6184EC7A2285F3D900A57F82 /* NewMedicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMedicationVC.swift; sourceTree = "<group>"; };
+		6184EC7C2285F49A00A57F82 /* Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		6184EC822285FBE500A57F82 /* NewMedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMedViews.swift; sourceTree = "<group>"; };
 		61C1E481228539D9007CDE49 /* MedTacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedTacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C1E484228539D9007CDE49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61C1E486228539D9007CDE49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61C1E486228539D9007CDE49 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		61C1E489228539D9007CDE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61C1E48B228539DA007CDE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61C1E48E228539DA007CDE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,12 +60,15 @@
 		61C1E483228539D9007CDE49 /* MedTacker */ = {
 			isa = PBXGroup;
 			children = (
+				6184EC7C2285F49A00A57F82 /* Medication.swift */,
 				61C1E484228539D9007CDE49 /* AppDelegate.swift */,
-				61C1E486228539D9007CDE49 /* ViewController.swift */,
+				61C1E486228539D9007CDE49 /* HomeVC.swift */,
 				61C1E488228539D9007CDE49 /* Main.storyboard */,
 				61C1E48B228539DA007CDE49 /* Assets.xcassets */,
 				61C1E48D228539DA007CDE49 /* LaunchScreen.storyboard */,
 				61C1E490228539DA007CDE49 /* Info.plist */,
+				6184EC7A2285F3D900A57F82 /* NewMedicationVC.swift */,
+				6184EC822285FBE500A57F82 /* NewMedViews.swift */,
 			);
 			path = MedTacker;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61C1E487228539D9007CDE49 /* ViewController.swift in Sources */,
+				6184EC7D2285F49A00A57F82 /* Medication.swift in Sources */,
+				6184EC832285FBE500A57F82 /* NewMedViews.swift in Sources */,
+				61C1E487228539D9007CDE49 /* HomeVC.swift in Sources */,
+				6184EC7B2285F3D900A57F82 /* NewMedicationVC.swift in Sources */,
 				61C1E485228539D9007CDE49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
